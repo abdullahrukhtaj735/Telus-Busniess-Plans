@@ -1,11 +1,191 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
-img{
-    max-width: 100%;
+
+
+img {
+
+  max-width: 100%;
 }
+
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* -------------------------------------------------logo_section ------------------------------------*/
+
+
+.logo_section {
+  /* background-color: #6fc058; */
+  padding: 10px 0px;
+
+}
+
+
+.right_icon {
+
+  justify-content: center;
+}
+
+.social-icons>a {
+  margin-right: 5px;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: #432d78;
+  /* background-color: #432d78; */
+
+
+}
+
+.social-icons>a i {
+  transform: translate(10px, 9px);
+  font-size: 25px;
+}
+
+
+
+.social-icons>a:hover {
+  background-color: #432d78;
+  color: white;
+  transform: scale(1.1);
+}
+
+
+.social-icons>a.google-plus:hover {
+  background-color: #e64c3a !important;
+  transform: scale(1.1)
+}
+
+/* -------------------------------------------------banner_section ------------------------------------*/
+.baner_section {
+  padding: 50px 0px;
+  background-color: #432d78;
+  color: white;
+  justify-content: center;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 0px, 100% 93%, 50% 97%, 50% 97%, 0px 93%, 0px 0px)
+}
+
+.heading {
+  align-self: center;
+
+}
+
+.baner_section h1 {
+  font-size: 50px;
+  font-weight: 600;
+
+}
+
+.baner_section h2 {
+  font-size: 18px;
+  color: #6fc058;
+
+}
+
+.baner_section p {
+  padding-top: 10px;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.baner_section ul {
+  padding-left: 0px;
+}
+
+.baner_section ul li {
+  font-size: 20px;
+  color: #6fc058;
+  list-style: none;
+  font-weight: 500;
+
+}
+
+.baner_section button {
+  text-decoration: none;
+  color: white;
+  background-color: #6fc058;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.offer {
+
+  align-self: center;
+  max-width: 80%;
+}
+
+.Google {
+
+  align-self: center;
+  max-width: 50%;
+}
+
+
+
+
+
+/*------------------------------------------- media quarry --------------------------------------------*/
+@media only screen and (max-width: 992px) {
+
+  /* -----------------------------.baner_section ----------------------*/
+  .baner_section h1 {
+    font-size: 30px;
+  }
+
+  .baner_section h2 {
+    font-size: 15px;
+  }
+
+  .baner_section p {
+    font-size: 22px;
+  }
+
+  .baner_section ul li {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    text-align: center;
+  }
+
+  .baner_section {
+    padding: 50px 20px;
+  }
+
+  .right_icon {
+    padding: 0%;
+    margin: 0%;
+    align-self: center;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .social-icons>a i {
+    transform: translate(0px, 9px);
+  }
+
 }
