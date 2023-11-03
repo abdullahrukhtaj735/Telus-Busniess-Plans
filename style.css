@@ -130,6 +130,18 @@ body {
 
   align-self: center;
   max-width: 80%;
+  animation: scaleup 2s ease-in-out infinite;
+}
+@keyframes scaleup {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+}
 }
 
 .Google {
@@ -146,6 +158,9 @@ body {
 @media only screen and (max-width: 992px) {
 
   /* -----------------------------.baner_section ----------------------*/
+  .baner_section{
+    clip-path: polygon(20% 0%, 80% 0%, 100% 0px, 100% 95%, 50% 97%, 50% 97%, 0px 95%, 0px 0px)
+  }
   .baner_section h1 {
     font-size: 30px;
   }
