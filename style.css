@@ -149,6 +149,59 @@ body {
   align-self: center;
   max-width: 50%;
 }
+/*-------------------------------------- intro_section -------------------------------------------------*/
+.intro_section{
+  padding: 100px 0px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+.intro_section h2{
+  width: 60%;
+  margin: auto;
+  font-size: 30px;
+  /* line-height: 40px; */
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+.intro_section p{
+ width: 70%;
+ margin: auto;
+ font-size: 15px;
+ font-weight: 500;
+}
+/*-------------------------------------- ser_section -------------------------------------------------*/
+
+.ser_section{
+  padding: 50px 0px;
+}
+.ser_section h2{
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+
+}
+.ser_content{
+  padding-top: 30px;
+}
+
+.ser_content h3{
+  font-size: 30px;
+  font-weight: 600;
+
+}
+.ser_content i{
+  color: #432d78;
+  font-size: 40px;
+}
+
+.ser_content p{
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: justify;
+  padding-right: 20px;
+}
+
 
 
 
@@ -176,10 +229,45 @@ body {
   .baner_section ul li {
     font-size: 16px;
   }
+
+  /* ----------------------------------------------------.intro_-section --------------------------------------*/
+  .intro_section{
+    padding: 50px 20px;
+  }
+  .intro_section h2{
+    width: 100%;
+    font-size: 22px;
+    
+  }
+  .intro_section p{
+    width: 100%;
+    font-size: 15px;
+  }
+   /* ---------------------------------------------services section------------------------------------------------ */
+   .ser_section h2{
+    font-size: 30px;
+   }
+   .ser_section h3{
+    font-size: 22px;
+
+   }
+   .row.Services_1.ser_content.d-flex {
+    padding-right: 0px;
+     }
+   .ser_section p{
+    font-size: 12px;
+   }
 }
 
 @media only screen and (max-width: 767px) {
   body {
+    text-align: center;
+  }
+  .ser_section{
+    text-align: center;
+  }
+  .ser_content p{
+    padding-right: 0px;
     text-align: center;
   }
 
@@ -196,6 +284,8 @@ body {
   .logo {
     justify-content: center;
   }
+ 
+
 }
 
 @media only screen and (max-width: 576px) {
