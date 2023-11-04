@@ -269,7 +269,86 @@ body {
 .other{
   padding: 50px 0px;
 }
+/*----------------------------------------- why choose us --------------------------------------- */
+.section_3 {
+  padding: 30px 0px;
+  background-color: #6fc058;
+  color: #ffffff;
 
+}
+.section_3 h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  padding: 40px 0px;
+}
+.card1 {
+  display: block;
+  position: relative;
+  max-width: 300px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px 10px;
+  
+  margin: auto;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    right: -35px;
+    background: #432d78;
+   
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+  }
+
+  &:hover:before {
+    transform: scale(30);
+  }
+}
+.card1:hover{
+  
+  color: white;
+}
+.secicon_1{
+  color: #432d78;
+  /* padding: 20px 10px; */
+  border-radius: 10px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section_3 .secicon{
+  
+  text-align: center;
+  /* background-color: #432d78;
+   */
+}
+.section_3 .secicon i{
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.section_3 .secicon h5{
+  font-size: 25px;
+  padding: 10px 0px;
+  font-weight: 500;
+}
+.section_3 .secicon p{
+  font-size: 15px;
+  /* padding: 10px 0px; */
+
+}
 
 
 
@@ -323,6 +402,14 @@ body {
    .ser_section p{
     font-size: 12px;
    }
+   /*--------------------- why choose us-----------------------------------  */
+   .secicon_1{
+    margin-bottom: 20px !important;
+  }
+  .section_3 h2{
+    font-size: 25px;
+  }
+ 
 }
 
 @media only screen and (max-width: 767px) {
@@ -350,6 +437,7 @@ body {
   .logo {
     justify-content: center;
   }
+  /*--------------------- why choose us-----------------------------------  */
  
 
 }
