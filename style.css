@@ -88,10 +88,13 @@ body {
   font-weight: 600;
 
 }
+ul .bold{
+  font-size: 39px !important;
+}
 
 .baner_section h2 {
   font-size: 18px;
-  color: #6fc058;
+  color: white;
 
 }
 
