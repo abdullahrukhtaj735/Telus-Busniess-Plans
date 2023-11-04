@@ -574,6 +574,12 @@ footer .social-icons a:hover {
   .foicon{
     justify-content: start;
   }
+  .foicon1 i{
+    transform: translate(7px, 9px) !important;
+  }
+  .foicon2 i{
+    transform: translate(10px, 9px) !important;
+  }
 
   .baner_section h2 {
     font-size: 15px;
