@@ -280,7 +280,13 @@ body {
   text-align: center;
   font-size: 35px;
   font-weight: 600;
-  padding: 40px 0px;
+  /* padding: 40px 0px; */
+}
+.sec3 p{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
 }
 .card1 {
   display: block;
@@ -349,6 +355,165 @@ body {
   /* padding: 10px 0px; */
 
 }
+.card2 img{
+  max-width: 30px;
+  margin: auto;
+}
+/*--------------------------------------- testimonial ---------------------------------------*/
+.section_5 {
+  padding: 50px 0px;
+  background-color: #432d78;
+  color: white;
+}
+.section_5 h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 30px;
+
+}
+.text-muted{
+  color: white !important;
+  font-weight: 300;
+  padding: 0px 30px;
+}
+/*----------------------------------- accordyans ----------------------------------------*/
+
+.accor {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+
+.wrapper {
+  width: 60%;
+}
+
+.accor h2{
+  padding-top: 20px ;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.faqs {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px 0 rgb(0,0,0,0.25);
+  margin: 20px 0;
+}
+
+.question {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 20px 80px 20px 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;  
+}
+
+.question::after {
+  content: "\002B";
+  font-size: 2.2rem;
+  position: absolute;
+  right: 20px;
+  transition: 0.2s;
+}
+
+.question.active::after {
+  transform: rotate(45deg);
+}
+
+.answercont {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.answer {
+  padding: 0 20px 20px;
+  line-height: 1.5rem;
+}
+
+/* .question.active + .answercont {
+} */
+
+@media screen and (max-width: 790px){
+  html {
+    font-size: 14px;
+  }
+  .wrapper {
+  width: 80%;
+}
+}
+/*--------------------------- contact ----------------------------*/
+.section_6{
+  padding: 50px 0px;
+  background-color: #6fc058;
+  color: white;
+}
+.section_6 h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  /* padding: 40px 0px; */
+ 
+}
+.section_6 ul{
+  margin-top: 30px;
+  padding-left: 0px;
+}
+.section_6 ul li{
+  margin-top: 20px;
+  list-style: none;
+}
+.section_6 ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: none;
+  font-size: 18px;
+  
+}
+.section_6 ul li a:hover{
+  color: #432d78;
+}
+.section_6 ul li a i{
+  font-size: 20px;
+  margin-right: 15px;
+  color: #432d78;
+}
+.section_6 ul li a i:hover{
+  color: white;
+}
+textarea#comments{
+  height: 100px;
+}
+form{
+  color: black;
+}
+button.btn.btn-primary{
+  color: white !important;
+  background-color: #432d78;
+  padding: 10px 20px;
+  border: none;
+  width: 100%;
+}
+button.btn.btn-primary:focus{
+  border: none;
+  background-color: #1c005e;
+}
+button.btn.btn-primary:hover{
+  background-color: #1c005e;
+}
+
+
+
 
 
 
@@ -408,6 +573,14 @@ body {
   }
   .section_3 h2{
     font-size: 25px;
+  }
+  /* -----------------------------------acordeyains ---------------------------*/
+  .accor h2{
+    font-size: 30px;
+  }
+  /*----------------------------- contact -----------------------------------*/
+  .section_6 h2{
+    font-size: 30px;
   }
  
 }
