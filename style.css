@@ -511,6 +511,46 @@ button.btn.btn-primary:focus{
 button.btn.btn-primary:hover{
   background-color: #1c005e;
 }
+/*-------------------------------------------------- footer---------------------------------------------- */
+footer{
+  background-color: #432d78;
+  padding: 50px 0px;
+  color: white;
+}
+footer .social-icons{
+  padding: 5px 0px;
+}
+footer .social-icons a  i{
+  color: white;
+}
+footer .social-icons a:hover {
+  background-color: #6fc058;
+  color: white;
+  transform: scale(1.1);
+}
+.social h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+.quick h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+.quick a{
+  color: white;
+  text-decoration: none;
+ padding: 5px 0px;
+  display: block;
+}
+.quick a:hover{
+  color: #6fc058;
+
+}
+.copy p {
+  margin-bottom: -60px;
+  text-align: center;
+  font-size: 13px;
+}
 
 
 
@@ -581,6 +621,17 @@ button.btn.btn-primary:hover{
   /*----------------------------- contact -----------------------------------*/
   .section_6 h2{
     font-size: 30px;
+  }
+  /*--------------------------------------- footer----------------------- */
+  footer{
+    padding: 50px 20px;
+    text-align: start;
+  }
+  footer .social{
+    padding-top: 20px;
+  }
+  footer .quick{
+    padding-top: 20px;
   }
  
 }
